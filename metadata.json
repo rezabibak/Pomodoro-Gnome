@@ -1,0 +1,10 @@
+{
+  "uuid": "pomodoro-sky@rezabibak.github.io",
+  "name": "Pomodoro Sky",
+  "description": "A beautiful sky-blue, glassmorphism Pomodoro timer that lives in your top bar. Tracks work/break sessions with a glass progress bar, session dots, gentle sound + notifications, and a built-in settings page — no separate Settings app needed.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "url": "https://github.com/rezabibak/Pomodoro-Gnome",
+  "version-name": "1.0.0",
+  "settings-schema": "org.gnome.shell.extensions.pomodoro-sky",
+  "gettext-domain": "pomodoro-sky"
+}

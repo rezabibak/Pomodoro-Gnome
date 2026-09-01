@@ -1,0 +1,302 @@
+/* Pomodoro Sky — sky-blue glassmorphism theme */
+
+/* ---------- Top bar ---------- */
+.pomodoro-panel-box {
+  spacing: 6px;
+  padding: 0 6px;
+}
+
+.pomodoro-panel-label {
+  font-weight: 600;
+  font-feature-settings: "tnum";
+  color: #e0f2fe;
+}
+
+.pomodoro-panel-box:hover .pomodoro-panel-label,
+.pomodoro-panel-box:active .pomodoro-panel-label {
+  color: #ffffff;
+}
+
+/* ---------- Menu card ---------- */
+.pomodoro-menu-root {
+  width: 300px;
+  padding: 18px 20px 16px 20px;
+  border-radius: 22px;
+  spacing: 14px;
+  background-gradient-start: #38bdf8;
+  background-gradient-end: #0369a1;
+  background-gradient-direction: vertical;
+  background-image: linear-gradient(160deg, #7dd3fc 0%, #38bdf8 45%, #0284c7 85%, #0369a1 100%);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 18px 40px -12px rgba(3, 105, 161, 0.65);
+}
+
+.pomodoro-header-row {
+  spacing: 8px;
+}
+
+.pomodoro-title {
+  font-size: 15px;
+  font-weight: 800;
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(2, 62, 100, 0.5);
+}
+
+.pomodoro-session-pill {
+  border-radius: 999px;
+  padding: 4px 12px;
+  background-color: rgba(255, 255, 255, 0.22);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 11px;
+  text-align: center;
+}
+
+/* ---------- Time display ---------- */
+.pomodoro-ring-stack {
+  padding: 6px 0 2px 0;
+  spacing: 4px;
+}
+
+.pomodoro-big-icon {
+  font-size: 26px;
+  x-align: center;
+}
+
+.pomodoro-ring-time {
+  font-size: 34px;
+  font-weight: 800;
+  font-feature-settings: "tnum";
+  color: #ffffff;
+  text-shadow: 0 2px 6px rgba(2, 62, 100, 0.55);
+}
+
+.pomodoro-ring-sub {
+  font-size: 11px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.85);
+  padding: 0 8px;
+  text-align: center;
+}
+
+/* ---------- Progress bar (glass pill) ---------- */
+.pomodoro-track {
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.22);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.pomodoro-fill {
+  border-radius: 999px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.65);
+}
+
+.pomodoro-panel-icon {
+  font-size: 12px;
+}
+
+.pomodoro-panel-track {
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.28);
+}
+
+.pomodoro-panel-fill {
+  border-radius: 999px;
+  background-color: #e0f2fe;
+}
+
+/* ---------- Session dots ---------- */
+.pomodoro-dots-row {
+  spacing: 8px;
+}
+
+.pomodoro-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.pomodoro-dot-filled {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 0 0 8px 1px rgba(255, 255, 255, 0.75);
+}
+
+/* ---------- Glass buttons ---------- */
+.pomodoro-controls-row {
+  spacing: 10px;
+}
+
+.pomodoro-glass-button {
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  color: #ffffff;
+  box-shadow: 0 6px 16px -4px rgba(2, 62, 100, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  transition-duration: 120ms;
+}
+
+.pomodoro-glass-button:hover {
+  background-color: rgba(255, 255, 255, 0.28);
+}
+
+.pomodoro-glass-button:active {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.pomodoro-icon-button {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
+
+.pomodoro-icon-button StIcon {
+  icon-size: 18px;
+}
+
+.pomodoro-primary-button {
+  height: 44px;
+  padding: 0 26px;
+  spacing: 8px;
+  font-weight: 800;
+  font-size: 13px;
+  background-color: rgba(255, 255, 255, 0.92);
+  color: #075985;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 8px 20px -6px rgba(2, 62, 100, 0.7);
+}
+
+.pomodoro-primary-button:hover {
+  background-color: #ffffff;
+}
+
+.pomodoro-primary-button:active {
+  background-color: #e0f2fe;
+}
+
+.pomodoro-primary-button StIcon {
+  icon-size: 16px;
+}
+
+/* ---------- Footer ---------- */
+.pomodoro-footer-row {
+  spacing: 8px;
+}
+
+.pomodoro-stat-label {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.pomodoro-footer-button {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  color: #ffffff;
+}
+
+.pomodoro-footer-button:hover {
+  background-color: rgba(255, 255, 255, 0.26);
+}
+
+.pomodoro-footer-button StIcon {
+  icon-size: 15px;
+}
+
+.pomodoro-separator {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* ---------- In-menu settings view ---------- */
+.pomodoro-section-label {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 10px;
+  font-weight: 800;
+  padding: 10px 2px 2px 2px;
+}
+
+.pomodoro-setting-row {
+  spacing: 10px;
+  padding: 5px 2px;
+}
+
+.pomodoro-setting-label {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.pomodoro-stepper {
+  spacing: 8px;
+}
+
+.pomodoro-stepper-value {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 0 2px;
+}
+
+.pomodoro-mini-button {
+  width: 26px;
+  height: 26px;
+  padding: 0;
+}
+
+.pomodoro-mini-button StIcon {
+  icon-size: 12px;
+}
+
+.pomodoro-toggle {
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  padding: 2px;
+  transition-duration: 120ms;
+}
+
+.pomodoro-toggle-on {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.pomodoro-toggle-knob {
+  border-radius: 999px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(2, 62, 100, 0.6);
+}
+
+.pomodoro-toggle-on .pomodoro-toggle-knob {
+  background-color: #075985;
+}
+
+.pomodoro-number-entry {
+  width: 54px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 0 8px;
+  background-color: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 13px;
+  text-align: center;
+}
+
+.pomodoro-number-entry:focus {
+  background-color: rgba(255, 255, 255, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+}
+
+.pomodoro-reset-button {
+  padding: 4px 16px;
+  font-size: 11px;
+  font-weight: 700;
+}

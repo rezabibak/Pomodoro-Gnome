@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="pomodoro-sky">
+  <schema id="org.gnome.shell.extensions.pomodoro-sky" path="/org/gnome/shell/extensions/pomodoro-sky/">
+
+    <key name="work-minutes" type="i">
+      <default>25</default>
+      <range min="1" max="180"/>
+      <summary>Work session length (minutes)</summary>
+    </key>
+
+    <key name="short-break-minutes" type="i">
+      <default>5</default>
+      <range min="1" max="60"/>
+      <summary>Short break length (minutes)</summary>
+    </key>
+
+    <key name="long-break-minutes" type="i">
+      <default>15</default>
+      <range min="1" max="90"/>
+      <summary>Long break length (minutes)</summary>
+    </key>
+
+    <key name="sessions-before-long-break" type="i">
+      <default>4</default>
+      <range min="2" max="12"/>
+      <summary>Work sessions before a long break</summary>
+    </key>
+
+    <key name="auto-start-breaks" type="b">
+      <default>true</default>
+      <summary>Automatically start breaks</summary>
+    </key>
+
+    <key name="auto-start-work" type="b">
+      <default>false</default>
+      <summary>Automatically start the next work session</summary>
+    </key>
+
+    <key name="show-notifications" type="b">
+      <default>true</default>
+      <summary>Show a notification when a session ends</summary>
+    </key>
+
+    <key name="play-sound" type="b">
+      <default>true</default>
+      <summary>Play a sound when a session ends</summary>
+    </key>
+
+    <key name="show-timer-label" type="b">
+      <default>true</default>
+      <summary>Show the countdown as text in the top bar</summary>
+    </key>
+
+    <key name="total-completed" type="i">
+      <default>0</default>
+      <summary>Total completed work sessions (all time)</summary>
+    </key>
+
+  </schema>
+</schemalist>
